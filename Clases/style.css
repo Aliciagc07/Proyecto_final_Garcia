@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Concert+One&display=swap');
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container-index {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  width: 100%;
+}
+
+.grid-container-index-0 {
+  grid-column: 1 / -1;
+  background-color: rgb(247, 219, 238);
+  overflow: hidden;
+}
+
+.grid-container-index p {
+  font-size: 18px; /* Cambiado de 1.5vw a 18px */
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 0;
+  line-height: 1;
+  color: rgb(238, 10, 200);
+}
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.grid-container-index-1 {
+  padding: 0%;
+  background-color: #F68F17;
+}
+
+.logo {
+  width: 40px; /* Cambiado de 2vw a 40px */
+}
+
+.grid-container-index-2 {
+  background-color: #F68F17;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.navbaruno ul {
+  font-family: 'Concert One', cursive;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  margin-right: 20px; /* Cambiado de 2vw a 20px */
+  font-size: 18px; /* Cambiado de 1.5vw a 18px */
+}
+
+.navbaruno li {
+  margin-left: 50px; /* Cambiado de 5vw a 50px */
+}
+
+.navbaruno a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbaruno ul li a:hover {
+  color: #000000;
+}
+
+.grid-container-index-3 {
+  color: #000000;
+  grid-column: 1/-1;
+  background-color: #f68f17(255, 255, 255);
+  margin: 0;
+  padding: 0; 
+}
+
+.grid-container-index-3 .name-1 {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0; 
+}
+
+.grid-container-index-4 {
+  grid-column: 1 / -1;
+  position: relative;
+  margin: 0;
+  padding: 0; 
+}
+
+.name-2 {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-width: 100%;
+  position: relative; 
+  margin: 0;
+  padding: 0;
+}
+
+.p-bt {
+  position: absolute; 
+  bottom: 50px; /* Cambiado de 5vw a 50px */
+  left: 50%;
+  transform: translateX(-50%); 
+  text-align: center; 
+  color: white; 
+  width: 40%;
+}
+
+.grid-container-index-4 h1 {
+  font-family:  'Concert One', cursive;
+  font-size: 60px; /* Cambiado de 3vw a 60px */
+  color: rgb(238, 10, 200);
+}
+
+.grid-container-index-4 p {
+  font-size: 18px; /* Cambiado de 1.5vw a 18px */
+  color: #ffffff;
+}
+
+.button {
+  font-family:  'Concert One', cursive;
+  padding: 10px 20px; /* Cambiado de 1vw a 10px y 1vw a 20px */
+  font-weight: 700;
+  font-size: 18px; /* Cambiado de 1.5vw a 18px */
+  color: white;
+  background-color: #CB6CE6;
+  border-radius: 50px; /* Cambiado de 10vw a 50px */
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  cursor: pointer;
+  margin-top: 50px; /* Cambiado de 5vw a 50px */
+}
+
+.button:hover {
+  transform: scale(1.1);
+  color:  #E8C39E;
+}
+
+.grid-container-index-5 {
+    grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px; /* Cambiado de 2vw a 40px */
+  background-color: rgb(232, 48, 174);
+}
+
+
+.in-grid-index h5 {
+  font-size: 36px; /* Cambiado de 1.8vw a 36px */
+}
+
+.in-grid-index p {
+  font-size: 18px; /* Cambiado de 1.5vw a 18px */
+  color: #000000;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 20px; /* Cambiado de 1vw a 20px */
+}
+
+.btn-primary {
+  background-color: #f68f17;
+  border: none;
+}
+
+.grid-container-index-6 {
+  grid-column: 1 / -1;
+  background-color: rgb(247, 219, 238);
+  padding-bottom: 20px;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.grid-container-index-6 p {
+  font-size: 36px; /* Cambiado de 3vw a 36px */
+  margin-top: 40px; /* Cambiado de 2vw a 40px */
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.email-input {
+  padding: 10px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 50px; 
+  width: 300px;
+  border-radius: 10;
+}
+  
+.submit-button {
+    font-family:  'Concert One', cursive;
+    padding: 5px 10px; /* Cambiado de 0.5vw a 5px y 0.5vw a 10px */
+    font-weight: 700;
+    font-size: 18px; /* Cambiado de 1.5vw a 18px */
+    color: white;
+    background-color: #CB6CE6;
+    border-radius: 50px; 
+}
+@media (max-width: 720px) {
+    .grid-container-index {
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+    }
+  
+    .grid-container-index-1 {
+      display: none;
+    }
+    .grid-container-index-2 {
+      grid-column: 1 / -1;
+      justify-content: center;
+    }
+}
+
+@media (max-width: 720px) {
+    .grid-container-index-5 .card-img-top {
+      display: none;
+    }
+  
+    .grid-container-index-5 .card-body {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 720px) {
+    .grid-container-index-5 {
+      flex-direction: column;
+      align-items: center; 
+    }
+  
+    .grid-container-index-5 .card {
+      width: 100%; 
+      margin-bottom: 20px; 
+    }
+  
+    .grid-container-index-5 .card-img-top {
+      display: none;
+    }
+  
+    .grid-container-index-5 .card-body {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 890px) {
+    .grid-container-index-4 h1,
+    .grid-container-index-4 p {
+      display: none;
+    }    
+    .grid-container-index-4 .name-2 {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
